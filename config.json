@@ -1,0 +1,20 @@
+{
+	"name": "web-icons",
+	"raw_source": "src/svg",
+	"source": "svg",
+	"icons_file": "src/icons.json",
+	"destination": {
+		"font": "fonts",
+		"css": "css",
+		"html": "demo",
+		"less": "less"
+	},
+	"templates": {
+		"html": "src/templates/demo.html",
+		"less": "src/templates/tpl.css"
+	},
+	"templateOptions": {
+		"prefix": "@{wb-css-prefix}-",
+		"classPrefix": "wb-"
+	}
+}
