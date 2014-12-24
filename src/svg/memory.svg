@@ -3,29 +3,35 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px"
 	 height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-<g id="cloud">
+<g id="loop">
 </g>
-<g id="align-right">
+<g id="reload">
 </g>
-<g id="align-center">
+<g id="random">
 </g>
-<g id="align-left">
+<g id="musical">
 </g>
-<g id="list-bulleted">
+<g id="stop">
 </g>
-<g id="list-numbered">
+<g id="play">
 </g>
-<g id="indent-decrease">
+<g id="pause">
 </g>
-<g id="indent-increase">
+<g id="volume-off">
 </g>
-<g id="underline">
+<g id="volume-low">
 </g>
-<g id="italic">
+<g id="volume-high">
 </g>
-<g id="bold">
+<g id="unlock">
 </g>
-<g id="library">
+<g id="lock">
+</g>
+<g id="wrench">
+</g>
+<g id="hammer">
+</g>
+<g id="settings">
 </g>
 <g id="memory">
 	<path fill-rule="evenodd" clip-rule="evenodd" d="M62,44c1.105,0,2,0.895,2,2v4c0,1.104-0.896,2-2,2h-7.092
@@ -37,109 +43,151 @@
 		c1.201,0.699,2.204,1.697,2.908,2.89H62c1.105,0,2,0.896,2,2v4c0,1.104-0.896,2-2,2h-6v8h6c1.105,0,2,0.895,2,2v4
 		c0,1.104-0.896,2-2,2h-6v8H62z"/>
 </g>
-<g id="grid-two-up">
-</g>
-<g id="desktop">
-</g>
-<g id="person">
-</g>
-<g id="close">
-</g>
-<g id="check">
-</g>
-<g id="format-clear">
-</g>
-<g id="chevron-left">
-</g>
-<g id="chevron-right">
-</g>
 <g id="extension">
 </g>
-<g id="list">
+<g id="plugin">
 </g>
-<g id="briefcase">
+<g id="trash">
 </g>
-<g id="layout">
+<g id="time">
 </g>
-<g id="schedule">
+<g id="calendar">
 </g>
-<g id="remove">
+<g id="print">
 </g>
-<g id="power">
+<g id="file">
 </g>
-<g id="assignment">
+<g id="order">
 </g>
-<g id="insert-emoticon">
+<g id="clipboard">
 </g>
-<g id="lock-locked">
+<g id="folder">
 </g>
-<g id="thumb-up">
+<g id="camera">
 </g>
-<g id="share">
+<g id="video">
+</g>
+<g id="gallery">
+</g>
+<g id="image">
+</g>
+<g id="eye-close">
+</g>
+<g id="eye">
+</g>
+<g id="crop">
+</g>
+<g id="pencil">
+</g>
+<g id="edit">
+</g>
+<g id="replay">
+</g>
+<g id="graph-down">
+</g>
+<g id="graph-up">
+</g>
+<g id="sort-des">
+</g>
+<g id="sort-asc">
 </g>
 <g id="upload">
 </g>
 <g id="download">
 </g>
-<g id="reply">
+<g id="zoom-out">
 </g>
-<g id="add">
-</g>
-<g id="edit">
-</g>
-<g id="paperclip">
-</g>
-<g id="attach-file">
-</g>
-<g id="replay">
-</g>
-<g id="star">
-</g>
-<g id="media">
-</g>
-<g id="link-intact">
-</g>
-<g id="movie">
-</g>
-<g id="audio">
-</g>
-<g id="favorite">
-</g>
-<g id="settings">
-</g>
-<g id="image">
-</g>
-<g id="videocamera">
-</g>
-<g id="tag">
-</g>
-<g id="infomation">
-</g>
-<g id="inbox">
-</g>
-<g id="menu">
+<g id="zoom-in">
 </g>
 <g id="search">
 </g>
-<g id="notifications">
+<g id="briefcase">
 </g>
-<g id="messenge">
+<g id="shopping-cart">
+</g>
+<g id="home">
+</g>
+<g id="pluse">
+</g>
+<g id="stats-bars">
+</g>
+<g id="pie-chart">
+</g>
+<g id="flag">
+</g>
+<g id="map">
+</g>
+<g id="globe">
+</g>
+<g id="more-vertical">
+</g>
+<g id="more-horizontal">
+</g>
+<g id="power">
+</g>
+<g id="signal">
+</g>
+<g id="mobile">
+</g>
+<g id="desktop">
+</g>
+<g id="arrow-shrink">
+</g>
+<g id="arrow-expand">
+</g>
+<g id="contract">
+</g>
+<g id="expand">
+</g>
+<g id="fullscreen-exit">
+</g>
+<g id="fullscreen">
+</g>
+<g id="layout">
+</g>
+<g id="menu">
+</g>
+<g id="grid-4">
+</g>
+<g id="grid-9">
+</g>
+<g id="person-add">
+</g>
+<g id="persons">
+</g>
+<g id="user">
+</g>
+<g id="person">
+</g>
+<g id="draft">
 </g>
 <g id="email">
 </g>
-<g id="trash">
+<g id="chat-room">
 </g>
-<g id="folder">
+<g id="chat-text">
 </g>
-<g id="file">
+<g id="chat-working">
 </g>
-<g id="vertical-chart">
+<g id="chat">
 </g>
-<g id="grid-three-up">
+<g id="reply">
 </g>
-<g id="calendar">
+<g id="share">
 </g>
-<g id="plugin">
+<g id="library">
+</g>
+<g id="tag">
+</g>
+<g id="bookmark">
+</g>
+<g id="book">
+</g>
+<g id="bell">
+</g>
+<g id="cloud">
+</g>
+<g id="inbox">
 </g>
 <g id="dashboard">
 </g>

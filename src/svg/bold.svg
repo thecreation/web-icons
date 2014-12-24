@@ -3,7 +3,109 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px"
 	 height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-<g id="cloud">
+<g id="thumb-down">
+</g>
+<g id="thumb-up">
+</g>
+<g id="star-outline">
+</g>
+<g id="star-half">
+</g>
+<g id="star">
+</g>
+<g id="favorite-outline">
+</g>
+<g id="favorite">
+</g>
+<g id="warning">
+</g>
+<g id="info">
+</g>
+<g id="info-circle">
+</g>
+<g id="help">
+</g>
+<g id="help-circle">
+</g>
+<g id="alert">
+</g>
+<g id="alert-circle">
+</g>
+<g id="remove">
+</g>
+<g id="remove-circle">
+</g>
+<g id="add">
+</g>
+<g id="add-circle">
+</g>
+<g id="close-mini">
+</g>
+<g id="close">
+</g>
+<g id="close-circle">
+</g>
+<g id="check-mini">
+</g>
+<g id="check">
+</g>
+<g id="check-circle">
+</g>
+<g id="triangle-up">
+</g>
+<g id="triangle-down">
+</g>
+<g id="triangle-right">
+</g>
+<g id="triangle-left">
+</g>
+<g id="sort-vertical">
+</g>
+<g id="dropleft">
+</g>
+<g id="dropright">
+</g>
+<g id="dropup">
+</g>
+<g id="dropdown">
+</g>
+<g id="arrow-right">
+</g>
+<g id="arrow-left">
+</g>
+<g id="chevron-down-mini">
+</g>
+<g id="chevron-up-mini">
+</g>
+<g id="chevron-down">
+</g>
+<g id="chevron-up">
+</g>
+<g id="chevron-right-mini">
+</g>
+<g id="chevron-left-mini">
+</g>
+<g id="chevron-right">
+</g>
+<g id="chevron-left">
+</g>
+<g id="code-unfold">
+</g>
+<g id="code-working">
+</g>
+<g id="code">
+</g>
+<g id="quote-left">
+</g>
+<g id="quote-right">
+</g>
+<g id="emoticon">
+</g>
+<g id="list">
+</g>
+<g id="list-bulleted">
+</g>
+<g id="list-numbered">
 </g>
 <g id="align-right">
 </g>
@@ -11,133 +113,37 @@
 </g>
 <g id="align-left">
 </g>
-<g id="list-bulleted">
-</g>
-<g id="list-numbered">
+<g id="align-justify">
 </g>
 <g id="indent-decrease">
 </g>
 <g id="indent-increase">
+</g>
+<g id="link-intact">
+</g>
+<g id="paperclip">
+</g>
+<g id="attach-file">
+</g>
+<g id="table">
+</g>
+<g id="text-type">
+</g>
+<g id="format-clear">
 </g>
 <g id="underline">
 </g>
 <g id="italic">
 </g>
 <g id="bold">
-	<path fill-rule="evenodd" clip-rule="evenodd" d="M40.5,62h-12h-4h-4v-0.735c0,0,0,0,0,0v0.734h-8V2h8v0.735c0,0,0,0,0,0V2h4h4
-		h8.001c6.627,0,12,5.372,12,12v4c0,3.54-1.562,6.69-4,8.886v3.849c4.65,1.653,8,6.048,8,11.265v8C52.5,56.627,47.128,62,40.5,62z
-		 M20.5,29.265v1.47c0,0,0,0,0,0L20.5,29.265C20.5,29.265,20.5,29.265,20.5,29.265z M32.5,10h-4c-1.076,0-1.45,0-1.566,0
-		c0.012,0-0.001,0-0.05,0c-0.22,0-1.37,0-6.384,0v16c5.996,0,3.582,0,8,0h4c4.419,0,8-3.582,8-8C40.5,13.582,36.919,10,32.5,10z
-		 M44.5,42c0-4.418-3.582-8-8-8h-4c-4.418,0-1.093,0-12,0v20c3.84,0,5.874,0,8,0c1.192,0,2.412,0,4,0h4c4.418,0,8-3.582,8-8V42z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" d="M40,62H28h-4h-4v-0.735h0v0.734h-8V2h8v0.735h0V2h4h4h8.001
+		c6.627,0,12,5.372,12,12v4c0,3.54-1.562,6.69-4,8.886v3.849c4.65,1.653,8,6.048,8,11.265v8C52,56.627,46.628,62,40,62z M20,29.265
+		v1.47l0,0L20,29.265L20,29.265z M32,10h-4c-1.076,0-1.45,0-1.566,0c0.012,0-0.001,0-0.05,0c-0.22,0-1.37,0-6.384,0v16
+		c5.996,0,3.582,0,8,0h4c4.419,0,8-3.582,8-8C40,13.582,36.419,10,32,10z M44,42c0-4.418-3.582-8-8-8h-4c-4.418,0-1.093,0-12,0v20
+		c3.84,0,5.874,0,8,0c1.192,0,2.412,0,4,0h4c4.418,0,8-3.582,8-8V42z"/>
 </g>
-<g id="library">
+<g id="text">
 </g>
-<g id="memory">
-</g>
-<g id="grid-two-up">
-</g>
-<g id="desktop">
-</g>
-<g id="person">
-</g>
-<g id="close">
-</g>
-<g id="check">
-</g>
-<g id="format-clear">
-</g>
-<g id="chevron-left">
-</g>
-<g id="chevron-right">
-</g>
-<g id="extension">
-</g>
-<g id="list">
-</g>
-<g id="briefcase">
-</g>
-<g id="layout">
-</g>
-<g id="schedule">
-</g>
-<g id="remove">
-</g>
-<g id="power">
-</g>
-<g id="assignment">
-</g>
-<g id="insert-emoticon">
-</g>
-<g id="lock-locked">
-</g>
-<g id="thumb-up">
-</g>
-<g id="share">
-</g>
-<g id="upload">
-</g>
-<g id="download">
-</g>
-<g id="reply">
-</g>
-<g id="add">
-</g>
-<g id="edit">
-</g>
-<g id="paperclip">
-</g>
-<g id="attach-file">
-</g>
-<g id="replay">
-</g>
-<g id="star">
-</g>
-<g id="media">
-</g>
-<g id="link-intact">
-</g>
-<g id="movie">
-</g>
-<g id="audio">
-</g>
-<g id="favorite">
-</g>
-<g id="settings">
-</g>
-<g id="image">
-</g>
-<g id="videocamera">
-</g>
-<g id="tag">
-</g>
-<g id="infomation">
-</g>
-<g id="inbox">
-</g>
-<g id="menu">
-</g>
-<g id="search">
-</g>
-<g id="notifications">
-</g>
-<g id="messenge">
-</g>
-<g id="email">
-</g>
-<g id="trash">
-</g>
-<g id="folder">
-</g>
-<g id="file">
-</g>
-<g id="vertical-chart">
-</g>
-<g id="grid-three-up">
-</g>
-<g id="calendar">
-</g>
-<g id="plugin">
-</g>
-<g id="dashboard">
+<g id="图层_1">
 </g>
 </svg>

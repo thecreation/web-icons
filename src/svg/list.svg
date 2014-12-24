@@ -3,49 +3,103 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px"
 	 height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-<g id="cloud">
+<g id="thumb-down">
 </g>
-<g id="align-right">
+<g id="thumb-up">
 </g>
-<g id="align-center">
+<g id="star-outline">
 </g>
-<g id="align-left">
+<g id="star-half">
 </g>
-<g id="list-bulleted">
+<g id="star">
 </g>
-<g id="list-numbered">
+<g id="favorite-outline">
 </g>
-<g id="indent-decrease">
+<g id="favorite">
 </g>
-<g id="indent-increase">
+<g id="warning">
 </g>
-<g id="underline">
+<g id="info">
 </g>
-<g id="italic">
+<g id="info-circle">
 </g>
-<g id="bold">
+<g id="help">
 </g>
-<g id="library">
+<g id="help-circle">
 </g>
-<g id="memory">
+<g id="alert">
 </g>
-<g id="grid-two-up">
+<g id="alert-circle">
 </g>
-<g id="desktop">
+<g id="remove">
 </g>
-<g id="person">
+<g id="remove-circle">
+</g>
+<g id="add">
+</g>
+<g id="add-circle">
+</g>
+<g id="close-mini">
 </g>
 <g id="close">
 </g>
+<g id="close-circle">
+</g>
+<g id="check-mini">
+</g>
 <g id="check">
 </g>
-<g id="format-clear">
+<g id="check-circle">
 </g>
-<g id="chevron-left">
+<g id="triangle-up">
+</g>
+<g id="triangle-down">
+</g>
+<g id="triangle-right">
+</g>
+<g id="triangle-left">
+</g>
+<g id="sort-vertical">
+</g>
+<g id="dropleft">
+</g>
+<g id="dropright">
+</g>
+<g id="dropup">
+</g>
+<g id="dropdown">
+</g>
+<g id="arrow-right">
+</g>
+<g id="arrow-left">
+</g>
+<g id="chevron-down-mini">
+</g>
+<g id="chevron-up-mini">
+</g>
+<g id="chevron-down">
+</g>
+<g id="chevron-up">
+</g>
+<g id="chevron-right-mini">
+</g>
+<g id="chevron-left-mini">
 </g>
 <g id="chevron-right">
 </g>
-<g id="extension">
+<g id="chevron-left">
+</g>
+<g id="code-unfold">
+</g>
+<g id="code-working">
+</g>
+<g id="code">
+</g>
+<g id="quote-left">
+</g>
+<g id="quote-right">
+</g>
+<g id="emoticon">
 </g>
 <g id="list">
 	<path fill-rule="evenodd" clip-rule="evenodd" d="M62,56H18c-1.105,0-2-0.896-2-2v-4c0-1.105,0.895-2,2-2h44c1.104,0,2,0.895,2,2v4
@@ -55,90 +109,42 @@
 		z M6,36H2c-1.105,0-2-0.896-2-2v-4c0-1.105,0.895-2,2-2h4c1.104,0,2,0.896,2,2v4C8,35.105,7.104,36,6,36z M6,16H2
 		c-1.105,0-2-0.896-2-2v-4c0-1.105,0.895-2,2-2h4c1.104,0,2,0.896,2,2v4C8,15.105,7.104,16,6,16z"/>
 </g>
-<g id="briefcase">
+<g id="list-bulleted">
 </g>
-<g id="layout">
+<g id="list-numbered">
 </g>
-<g id="schedule">
+<g id="align-right">
 </g>
-<g id="remove">
+<g id="align-center">
 </g>
-<g id="power">
+<g id="align-left">
 </g>
-<g id="assignment">
+<g id="align-justify">
 </g>
-<g id="insert-emoticon">
+<g id="indent-decrease">
 </g>
-<g id="lock-locked">
+<g id="indent-increase">
 </g>
-<g id="thumb-up">
-</g>
-<g id="share">
-</g>
-<g id="upload">
-</g>
-<g id="download">
-</g>
-<g id="reply">
-</g>
-<g id="add">
-</g>
-<g id="edit">
+<g id="link-intact">
 </g>
 <g id="paperclip">
 </g>
 <g id="attach-file">
 </g>
-<g id="replay">
+<g id="table">
 </g>
-<g id="star">
+<g id="text-type">
 </g>
-<g id="media">
+<g id="format-clear">
 </g>
-<g id="link-intact">
+<g id="underline">
 </g>
-<g id="movie">
+<g id="italic">
 </g>
-<g id="audio">
+<g id="bold">
 </g>
-<g id="favorite">
+<g id="text">
 </g>
-<g id="settings">
-</g>
-<g id="image">
-</g>
-<g id="videocamera">
-</g>
-<g id="tag">
-</g>
-<g id="infomation">
-</g>
-<g id="inbox">
-</g>
-<g id="menu">
-</g>
-<g id="search">
-</g>
-<g id="notifications">
-</g>
-<g id="messenge">
-</g>
-<g id="email">
-</g>
-<g id="trash">
-</g>
-<g id="folder">
-</g>
-<g id="file">
-</g>
-<g id="vertical-chart">
-</g>
-<g id="grid-three-up">
-</g>
-<g id="calendar">
-</g>
-<g id="plugin">
-</g>
-<g id="dashboard">
+<g id="图层_1">
 </g>
 </svg>
