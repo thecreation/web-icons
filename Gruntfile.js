@@ -85,6 +85,15 @@ module.exports = function(grunt) {
               dest: '<%=config.source%>',
               ext: '.svg'
           }]
+      },
+      src: {
+          files: [{
+              expand: true,
+              cwd: '<%=config.raw_source%>',
+              src: ['**/*.svg'],
+              dest: '<%=config.raw_source%>',
+              ext: '.svg'
+          }]
       }
     },
 

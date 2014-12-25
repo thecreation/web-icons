@@ -1,4 +1,4 @@
-/* icons - v0.1.0 - 2014-12-24
+/* icons - v0.1.0 - 2014-12-25
 * https://github.com/amazingSurge/web-icons
 * Copyright (c) 2014 amazingSurge; Licensed MIT */
 @font-face {
@@ -57,25 +57,25 @@
 .wb-chat-text:before {
   content: "\f10d";
 }
-.wb-chat-room:before {
+.wb-chat-group:before {
   content: "\f10e";
 }
-.wb-email:before {
+.wb-envelope:before {
   content: "\f10f";
 }
-.wb-draft:before {
+.wb-envelope-open:before {
   content: "\f110";
 }
-.wb-person:before {
+.wb-user:before {
   content: "\f111";
 }
-.wb-user:before {
+.wb-user-circle:before {
   content: "\f112";
 }
-.wb-persons:before {
+.wb-users:before {
   content: "\f113";
 }
-.wb-person-add:before {
+.wb-user-add:before {
   content: "\f114";
 }
 .wb-grid-9:before {
@@ -318,174 +318,177 @@
 .wb-link-intact:before {
   content: "\f164";
 }
-.wb-indent-increase:before {
+.wb-link:before {
   content: "\f165";
 }
-.wb-indent-decrease:before {
+.wb-link-broken:before {
   content: "\f166";
 }
-.wb-align-justify:before {
+.wb-indent-increase:before {
   content: "\f167";
 }
-.wb-align-left:before {
+.wb-indent-decrease:before {
   content: "\f168";
 }
-.wb-align-center:before {
+.wb-align-justify:before {
   content: "\f169";
 }
-.wb-align-right:before {
+.wb-align-left:before {
   content: "\f16a";
 }
-.wb-list-numbered:before {
+.wb-align-center:before {
   content: "\f16b";
 }
-.wb-list-bulleted:before {
+.wb-align-right:before {
   content: "\f16c";
 }
-.wb-list:before {
+.wb-list-numbered:before {
   content: "\f16d";
 }
-.wb-emoticon:before {
+.wb-list-bulleted:before {
   content: "\f16e";
 }
-.wb-quote-right:before {
+.wb-list:before {
   content: "\f16f";
 }
-.wb-code:before {
+.wb-emoticon:before {
   content: "\f170";
 }
-.wb-code-working:before {
+.wb-quote-right:before {
   content: "\f171";
 }
-.wb-code-unfold:before {
+.wb-code:before {
   content: "\f172";
 }
-.wb-chevron-right:before {
+.wb-code-working:before {
   content: "\f173";
 }
-.wb-chevron-left:before {
+.wb-code-unfold:before {
   content: "\f174";
 }
-.wb-chevron-left-mini:before {
+.wb-chevron-right:before {
   content: "\f175";
 }
-.wb-chevron-right-mini:before {
+.wb-chevron-left:before {
   content: "\f176";
 }
-.wb-chevron-up:before {
+.wb-chevron-left-mini:before {
   content: "\f177";
 }
-.wb-chevron-down:before {
+.wb-chevron-right-mini:before {
   content: "\f178";
 }
-.wb-chevron-up-mini:before {
+.wb-chevron-up:before {
   content: "\f179";
 }
-.wb-chevron-down-mini:before {
+.wb-chevron-down:before {
   content: "\f17a";
 }
-.wb-arrow-left:before {
+.wb-chevron-up-mini:before {
   content: "\f17b";
 }
-.wb-arrow-right:before {
+.wb-chevron-down-mini:before {
   content: "\f17c";
 }
-.wb-dropdown:before {
+.wb-arrow-left:before {
   content: "\f17d";
 }
-.wb-dropup:before {
+.wb-arrow-right:before {
   content: "\f17e";
 }
-.wb-dropright:before {
+.wb-dropdown:before {
   content: "\f17f";
 }
-.wb-dropleft:before {
+.wb-dropup:before {
   content: "\f180";
 }
-.wb-sort-vertical:before {
+.wb-dropright:before {
   content: "\f181";
 }
-.wb-triangle-left:before {
+.wb-dropleft:before {
   content: "\f182";
 }
-.wb-triangle-right:before {
+.wb-sort-vertical:before {
   content: "\f183";
 }
-.wb-triangle-down:before {
+.wb-triangle-left:before {
   content: "\f184";
 }
-.wb-triangle-up:before {
+.wb-triangle-right:before {
   content: "\f185";
 }
-.wb-check-circle:before {
+.wb-triangle-down:before {
   content: "\f186";
 }
-.wb-check:before {
+.wb-triangle-up:before {
   content: "\f187";
 }
-.wb-check-mini:before {
+.wb-check-circle:before {
   content: "\f188";
 }
-.wb-close-circle:before {
+.wb-check:before {
   content: "\f189";
 }
-.wb-close:before {
+.wb-check-mini:before {
   content: "\f18a";
 }
-.wb-close-mini:before {
+.wb-close:before {
   content: "\f18b";
 }
-.wb-add-circle:before {
+.wb-close-mini:before {
   content: "\f18c";
 }
-.wb-add:before {
+.wb-plus-circle:before {
   content: "\f18d";
 }
-.wb-remove-circle:before {
+.wb-plus:before {
   content: "\f18e";
 }
-.wb-remove:before {
+.wb-minus-circle:before {
   content: "\f18f";
 }
-.wb-alert-circle:before {
+.wb-minus:before {
   content: "\f190";
 }
-.wb-alert:before {
+.wb-alert-circle:before {
   content: "\f191";
 }
-.wb-help-circle:before {
+.wb-alert:before {
   content: "\f192";
 }
-.wb-help:before {
+.wb-help-circle:before {
   content: "\f193";
 }
-.wb-info-circle:before {
+.wb-help:before {
   content: "\f194";
 }
-.wb-info:before {
+.wb-info-circle:before {
   content: "\f195";
 }
-.wb-warning:before {
+.wb-info:before {
   content: "\f196";
 }
-.wb-favorite:before {
+.wb-warning:before {
   content: "\f197";
 }
-.wb-favorite-outline:before {
+.wb-heart:before {
   content: "\f198";
 }
-.wb-star:before {
+.wb-heart-outline:before {
   content: "\f199";
 }
-.wb-star-half:before {
+.wb-star:before {
   content: "\f19a";
 }
-.wb-star-outline:before {
+.wb-star-half:before {
   content: "\f19b";
 }
-.wb-thumb-up:before {
+.wb-star-outline:before {
   content: "\f19c";
 }
-.wb-thumb-down:before {
+.wb-thumb-up:before {
   content: "\f19d";
+}
+.wb-thumb-down:before {
+  content: "\f19e";
 }
