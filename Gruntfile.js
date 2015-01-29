@@ -51,7 +51,12 @@ module.exports = function(grunt) {
           return path + name.replace(/icons_/g,"");
         }
       },
-      process: {
+      variables: {
+        files: {
+          '<%=config.destination.less%>/variables.less': "<%=config.destination.html%>/<%=config.name%>.less",
+        }
+      },
+      icons: {
         files: {
           '<%=config.destination.less%>/icons.less': "<%=config.destination.html%>/<%=config.name%>.less",
           '<%=config.destination.html%>/index.html': "<%=config.destination.html%>/<%=config.name%>.html",
@@ -133,7 +138,7 @@ module.exports = function(grunt) {
 
     // -- webfont Config ----------------------------------------------------------
     webfont: {
-      dist: {
+      icons: {
         options: {
           syntax: 'bootstrap',
           stylesheet: 'less',
@@ -145,7 +150,31 @@ module.exports = function(grunt) {
           relativeFontPath: '../fonts',
           hashes: false,
           ie7: false,
-          template: '<%=config.templates.less%>',
+          template: '<%=config.templates.icons%>',
+          templateOptions: '<%=config.templateOptions%>',
+          rename: function(name) {
+            return path.basename(name).replace(/^\d*-/, '');
+          }
+        },
+        expand: true,
+        cwd: '<%=config.source%>',
+        src: ['**/*.svg'],
+        dest: '<%=config.destination.font%>',
+        destCss: '<%=config.destination.html%>'
+      },
+      variables: {
+        options: {
+          syntax: 'bootstrap',
+          stylesheet: 'less',
+          font: '<%=config.name%>',
+          htmlDemo: true,
+          destHtml: '<%=config.destination.html%>',
+          htmlDemoTemplate: '<%=config.templates.html%>',
+          autoHint: true,
+          relativeFontPath: '../fonts',
+          hashes: false,
+          ie7: false,
+          template: '<%=config.templates.variables%>',
           templateOptions: '<%=config.templateOptions%>',
           rename: function(name) {
             return path.basename(name).replace(/^\d*-/, '');
@@ -220,7 +249,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['prepare', 'build']);
 
-  grunt.registerTask('build', ['clean:build','webfont','copy:process','less','clean:process','concat']);
+  grunt.registerTask('build', ['clean:build','webfont:variables','copy:variables','webfont:icons','copy:icons', 'version', 'less', 'clean:process','concat']);
 
   grunt.registerTask('prepare', ['clean:prepare', 'prepareicons', 'svgmin']);
 

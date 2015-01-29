@@ -11,10 +11,12 @@
 	},
 	"templates": {
 		"html": "src/templates/demo.html",
-		"less": "src/templates/tpl.css"
+		"icons": "src/templates/icons.css",
+		"variables": "src/templates/variables.css"
 	},
 	"templateOptions": {
 		"prefix": "@{wb-css-prefix}-",
-		"classPrefix": "wb-"
+		"classPrefix": "wb-",
+		"varPrefix": "@wb-var"
 	}
 }
