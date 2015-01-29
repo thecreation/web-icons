@@ -16,7 +16,7 @@
 	"chat-working"             :true,
 	"chat-text"                :true,
 	"chat-group"               :true,
-    "envelope"                 :true,
+        "envelope"                 :true,
 	"envelope-open"            :true,
 	"user"                     :true,
 	"user-circle"              :true,
@@ -113,6 +113,7 @@
 	"link-intact"              :true,
 	"link"                     :true,
 	"link-broken"              :true,
+	"heading"                  :true,
 	
 	"indent-increase"          :true,
 	"indent-decrease"          :true,
