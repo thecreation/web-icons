@@ -49,6 +49,7 @@
 	"pluse"                    :true,
 	"home"                     :true,
 	"shopping-cart"            :true,
+	"payment"                  :true,
 	"briefcase"                :true,
 	"search"                   :true,
 	"zoom-in"                  :true,
@@ -76,6 +77,7 @@
 	"clipboard"                :true,
 	"order"                    :true,
 	"file"                     :true,
+	"add-file"                 :true,
 	"print"                    :true,
 	"calendar"                 :true,
 	"time"                     :true,
@@ -178,5 +180,9 @@
 	"star-half"                :true,
 	"star-outline"             :true,
 	"thumb-up"                 :true,
-	"thumb-down"               :true
+	"thumb-down"               :true,
+	"small-point"              :true,
+	"medium-point"             :true,
+	"large-point"              :true
+	
 }
