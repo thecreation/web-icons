@@ -17,10 +17,49 @@ simply add icon's classname, such as `wb-dashboard` to an HTML element.
 
     <i class="wb-dashboard"></i>
 
+
 ## Contributing
 
 Please read through our [contributing guidelines](https://github.com/amazingSurge/web-icons/blob/master/CONTRIBUTING.md).
 Included are directions for opening issues, coding standards, and notes on development.
+
+## Development Installation
+
+This plugin requires Grunt. Note that `ttfautohint` is optional, but your generated font will not be properly hinted if it’s not installed. And make sure you don’t use `ttfautohint` 0.97 because that version won’t work. And you need add [WOFF2 support](https://github.com/sapegin/grunt-webfont/wiki/WOFF2-support).
+
+### OS X
+
+```
+brew install ttfautohint fontforge --with-python
+npm install grunt-webfont --save-dev
+```
+
+*You may need to use `sudo` for `brew`, depending on your setup.*
+
+*`fontforge` isn’t required for `node` engine (see below).*
+
+:skull: [Notes on experimental WOFF2 support](https://github.com/sapegin/grunt-webfont/wiki/WOFF2-support).
+
+### Linux
+
+```
+sudo apt-get install fontforge ttfautohint
+npm install grunt-webfont --save-dev
+```
+
+*`fontforge` isn’t required for `node` engine (see below).*
+
+:skull: [Notes on experimental WOFF2 support](https://github.com/sapegin/grunt-webfont/wiki/WOFF2-support).
+
+### Windows
+
+```
+npm install grunt-webfont --save-dev
+```
+
+Then [install `ttfautohint`](http://www.freetype.org/ttfautohint/#download) (optional).
+
+*Only `node` engine available (see below).*
 
 ## Versioning
 

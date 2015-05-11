@@ -21,7 +21,7 @@ module.exports = function(grunt) {
       build: ['<%=config.destination.font%>','<%=config.destination.css%>','<%=config.destination.html%>/<%=config.name%>.html'],
       rename:['src/**/icons_*.svg'],
       prepare: ['<%=config.source%>'],
-      process: ["<%=config.destination.html%>/<%=config.name%>.less", "<%=config.destination.html%>/<%=config.name%>.html"]
+      process: ["<%=config.destination.html%>/<%=config.name%>.less", "<%=config.destination.html%>/<%=config.name%>.html", "<%=config.destination.temp%>"]
     },
     
     // -- concat config ------------------------------------------------------
@@ -140,6 +140,7 @@ module.exports = function(grunt) {
     webfont: {
       icons: {
         options: {
+          types:'eot,woff2,woff,ttf,svg',
           syntax: 'bootstrap',
           stylesheet: 'less',
           font: '<%=config.name%>',
@@ -164,6 +165,7 @@ module.exports = function(grunt) {
       },
       variables: {
         options: {
+          types:'eot,woff2,woff,ttf,svg',
           syntax: 'bootstrap',
           stylesheet: 'less',
           font: '<%=config.name%>',
@@ -183,7 +185,7 @@ module.exports = function(grunt) {
         expand: true,
         cwd: '<%=config.source%>',
         src: ['**/*.svg'],
-        dest: '<%=config.destination.font%>',
+        dest: '<%=config.destination.temp%>',
         destCss: '<%=config.destination.html%>'
       }
     }

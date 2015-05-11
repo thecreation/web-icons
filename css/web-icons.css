@@ -1,10 +1,10 @@
-/* icons - v0.2.0 - 2015-02-11
+/* icons - v0.2.1 - 2015-05-11
 * https://github.com/amazingSurge/web-icons
 * Copyright (c) 2015 amazingSurge; Licensed MIT */
 @font-face {
   font-family: 'Web Icons';
-  src: url('../fonts/web-icons.eot?v=0.2.0');
-  src: url('../fonts/web-icons.eot?#iefix&v=0.2.0') format('embedded-opentype'), url('../fonts/web-icons.woff?v=0.2.0') format('woff'), url('../fonts/web-icons.ttf?v=0.2.0') format('truetype'), url('../fonts/web-icons.svg?v=0.2.0#web-icons') format('svg');
+  src: url('../fonts/web-icons.eot?v=0.2.1');
+  src: url('../fonts/web-icons.eot?#iefix&v=0.2.1') format('embedded-opentype'), url('../fonts/web-icons.woff2?v=0.2.1') format('woff2'), url('../fonts/web-icons.woff?v=0.2.1') format('woff'), url('../fonts/web-icons.ttf?v=0.2.1') format('truetype'), url('../fonts/web-icons.svg?v=0.2.1#web-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,6 +17,7 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
 }
 .wb-dashboard:before {
   content: "\f101";

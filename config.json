@@ -7,7 +7,8 @@
 		"font": "fonts",
 		"css": "css",
 		"html": "demo",
-		"less": "less"
+		"less": "less",
+		"temp": "temp"
 	},
 	"templates": {
 		"html": "src/templates/demo.html",
