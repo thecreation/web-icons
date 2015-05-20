@@ -65,6 +65,7 @@
 	
 	"edit"                     :true,
 	"pencil"                   :true,
+	"rubber"                   :true,
 	"crop"                     :true,
 	"eye"                      :true,
 	"eye-close"                :true,
@@ -77,6 +78,7 @@
 	"clipboard"                :true,
 	"order"                    :true,
 	"file"                     :true,
+	"copy"                     :true,
 	"add-file"                 :true,
 	"print"                    :true,
 	"calendar"                 :true,
@@ -87,6 +89,7 @@
 	"extension"                :true,
 	"memory"                   :true,
 	"settings"                 :true,
+	"scissor"                  :true,
 	"wrench"                   :true,
 	"hammer"                   :true,
 	"lock"                     :true,
@@ -144,6 +147,8 @@
 	"chevron-down-mini"        :true,
 	"arrow-left"               :true,
 	"arrow-right"              :true,
+	"arrow-up"                 :true,
+	"arrow-down"               :true,
 	
 	"dropdown"                 :true,
 	"dropup"                   :true,
