@@ -169,6 +169,20 @@ module.exports = function(grunt) {
               from: /@((?!media|include|charset|document|font-face|import|keyframes|page|supports)[a-zA-Z_]+)/gi,
               to: '$$$1'
           }]
+        },
+        icons: {
+          src: '<%=config.destination.less%>/icons.less',
+          dest: '<%=config.destination.scss%>/_icons.scss',
+          replacements: [{
+              from: /@((?!media|include|charset|document|font-face|import|keyframes|page|supports)[a-zA-Z_]+)/gi,
+              to: '$$$1'
+          },{
+              from: /@\{([a-zA-Z-]+)\}/gi,
+              to: '#{$$$1}'
+          }, {
+              from: /~"(.*)"/gi,
+              to: "#{\"$1\"}"
+          }]
         }
     },
 
@@ -287,7 +301,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['prepare', 'build']);
 
-  grunt.registerTask('build', ['clean:build','webfont:variables','copy:variables','webfont:icons','copy:icons', 'version',  'replace:variables', 'less', 'clean:process','concat']);
+  grunt.registerTask('build', ['clean:build','webfont:variables','copy:variables','webfont:icons','copy:icons', 'version',  'replace:variables', 'replace:icons', 'less', 'clean:process','concat']);
 
   grunt.registerTask('prepare', ['clean:prepare', 'prepareicons', 'svgmin']);
 
