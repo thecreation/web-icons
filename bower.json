@@ -1,6 +1,6 @@
 {
   "name": "web-icons",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "main": ["css/*", "fonts/*", "less/*", "demo/*"],
   "ignore": [
     "**/.*",

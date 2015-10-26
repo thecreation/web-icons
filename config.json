@@ -8,6 +8,7 @@
 		"css": "css",
 		"html": "demo",
 		"less": "less",
+		"scss": "scss",
 		"temp": "temp"
 	},
 	"templates": {

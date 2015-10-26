@@ -34,6 +34,10 @@ module.exports = function(grunt) {
         src: ['<%=config.destination.less%>/<%=config.name%>.less'],
         dest: '<%=config.destination.less%>/<%=config.name%>.less'
       },
+      scss: {
+        src: ['<%=config.destination.scss%>/<%=config.name%>.scss'],
+        dest: '<%=config.destination.scss%>/<%=config.name%>.scss'
+      },
       css: {
         src: ['<%=config.destination.css%>/<%=config.name%>.css'],
         dest: '<%=config.destination.css%>/<%=config.name%>.css'
@@ -69,6 +73,22 @@ module.exports = function(grunt) {
       dist: {
         files: {
           '<%=config.destination.css%>/<%=config.name%>.css': "<%=config.destination.less%>/<%=config.name%>.less"
+        }
+      }
+    },
+
+    // -- sass Config ----------------------------------------------------------
+    sass: {
+      options: {
+        precision: 6,
+        sourcemap: 'none', // 'auto'
+        style: 'expanded',
+        trace: true,
+        bundleExec: false
+      },
+      dist: {
+        files: {
+          '<%=config.destination.css%>/<%=config.name%>.css': "<%=config.destination.scss%>/<%=config.name%>.scss"
         }
       }
     },
@@ -127,12 +147,28 @@ module.exports = function(grunt) {
             }]
         },
         less: {
-            src: ['less/variables.less'],
+            src: ['<%=config.destination.less%>/variables.less'],
             overwrite: true, // overwrite matched source files
             replacements: [{
                 from: /(version\s*:\s+")([0-9\.]+)(")/g,
                 to: "$1<%= pkg.version %>$3"
             }]
+        },
+        scss: {
+            src: ['<%=config.destination.scss%>/_variables.scss'],
+            overwrite: true, // overwrite matched source files
+            replacements: [{
+                from: /(version\s*:\s+")([0-9\.]+)(")/g,
+                to: "$1<%= pkg.version %>$3"
+            }]
+        },
+        variables: {
+          src: '<%=config.destination.less%>/variables.less',
+          dest: '<%=config.destination.scss%>/_variables.scss',
+          replacements: [{
+              from: /@((?!media|include|charset|document|font-face|import|keyframes|page|supports)[a-zA-Z_]+)/gi,
+              to: '$$$1'
+          }]
         }
     },
 
@@ -251,12 +287,13 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['prepare', 'build']);
 
-  grunt.registerTask('build', ['clean:build','webfont:variables','copy:variables','webfont:icons','copy:icons', 'version', 'less', 'clean:process','concat']);
+  grunt.registerTask('build', ['clean:build','webfont:variables','copy:variables','webfont:icons','copy:icons', 'version',  'replace:variables', 'less', 'clean:process','concat']);
 
   grunt.registerTask('prepare', ['clean:prepare', 'prepareicons', 'svgmin']);
 
   grunt.registerTask('version', [
     'replace:bower',
-    'replace:less'
+    'replace:less',
+    'replace:scss'
   ]);
 };

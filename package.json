@@ -2,7 +2,7 @@
   "name": "web-icons",
   "title": "icons",
   "description": "A brand icons collection font",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "homepage": "https://github.com/amazingSurge/web-icons",
   "author": {
     "name": "amazingSurge",
@@ -28,11 +28,12 @@
     "grunt": "*",
     "grunt-banner": "*",
     "grunt-contrib-clean": "*",
-    "grunt-contrib-copy": "*",
     "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
     "grunt-contrib-less": "*",
-    "grunt-text-replace": "*",
+    "grunt-contrib-sass": "*",
     "grunt-svgmin": "*",
+    "grunt-text-replace": "*",
     "grunt-webfont": "*",
     "load-grunt-tasks": "*"
   }
