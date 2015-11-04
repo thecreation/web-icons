@@ -49,6 +49,7 @@
 	"pluse"                    :true,
 	"home"                     :true,
 	"shopping-cart"            :true,
+	"dollar"                   :true,
 	"payment"                  :true,
 	"briefcase"                :true,
 	"search"                   :true,
