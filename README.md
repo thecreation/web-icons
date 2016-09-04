@@ -76,6 +76,9 @@ And constructed with the following guidelines:
 
 For more information on SemVer, please visit http://semver.org.
 
+## Social icons
+Looking for social icons? Please checkout https://github.com/amazingSurge/brand-icons
+
 ## License
 
 Web Icons is licensed under the [MIT license](http://opensource.org/licenses/MIT).
