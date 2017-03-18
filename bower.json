@@ -1,7 +1,7 @@
 {
   "name": "web-icons",
   "version": "0.2.3",
-  "main": ["css/*", "fonts/*", "less/*", "demo/*"],
+  "main": "css/web-icons.css",
   "ignore": [
     "**/.*",
     "node_modules",
