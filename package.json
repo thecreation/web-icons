@@ -2,7 +2,7 @@
   "name": "web-icons",
   "title": "icons",
   "description": "A brand icons collection font",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "homepage": "https://github.com/amazingSurge/web-icons",
   "author": {
     "name": "amazingSurge",
@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "grunt": "*",
-    "grunt-banner": "*",
     "grunt-contrib-clean": "*",
     "grunt-contrib-concat": "*",
     "grunt-contrib-copy": "*",

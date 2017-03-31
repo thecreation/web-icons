@@ -13,7 +13,7 @@ module.exports = function(grunt) {
       '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
       '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
       '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
-      ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
+      ' Licensed MIT */\n',
     // Task configuration.
 
     // -- Clean Config ---------------------------------------------------------
@@ -198,9 +198,12 @@ module.exports = function(grunt) {
           destHtml: '<%=config.destination.html%>',
           htmlDemoTemplate: '<%=config.templates.html%>',
           autoHint: true,
+          engine: 'fontforge',
           relativeFontPath: '../fonts',
           hashes: false,
           ie7: false,
+          ligatures: false,
+          normalize: true,
           template: '<%=config.templates.icons%>',
           templateOptions: '<%=config.templateOptions%>',
           rename: function(name) {
@@ -223,9 +226,12 @@ module.exports = function(grunt) {
           destHtml: '<%=config.destination.html%>',
           htmlDemoTemplate: '<%=config.templates.html%>',
           autoHint: true,
+          engine: 'fontforge',
           relativeFontPath: '../fonts',
           hashes: false,
           ie7: false,
+          ligatures: false,
+          normalize: true,
           template: '<%=config.templates.variables%>',
           templateOptions: '<%=config.templateOptions%>',
           rename: function(name) {
